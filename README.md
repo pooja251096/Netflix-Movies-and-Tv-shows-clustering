@@ -37,4 +37,14 @@ description: The Summary description
 3. Elementary Analysis
 4. Data Cleaning and data Visualization
 5. Generate Word embeddings
-6. 
+6. Define Model and create clusters
+   6.1 DBSCAN
+   6.2 Mean Shift
+   6.3 Agglomerative clustering
+   6.4 KMeans
+   6.5 BIRCH
+   6.6 Gaussian Mixture
+   6.7 OPTICS
+   6.8 MiniBatch KMeans
+# **7. Conclusion**
+From the diffrent clutering algorithms we trained our data on, DBSCAN and Mean Shift seems to be not able to properly cluster the data. Agglomorative Clustering, BIRCH, KMeans and Gaussian mixture does a good job on identifying the clusters. Also we can observe from the cluster data that these models have been able to identify the proper segment types in the data. So these models can be used for future work to further tune and produce better results.
